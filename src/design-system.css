@@ -1,0 +1,81 @@
+:root {
+  font-family: Inter, "Segoe UI", Arial, sans-serif;
+  color: #152923;
+  background: #f5f7f4;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --color-primary: #245bb5;
+  --color-primary-hover: #19478f;
+  --color-primary-soft: #edf3fd;
+  --color-primary-border: #d9e3f4;
+  --color-secondary: #153563;
+  --color-canvas: #f5f7fb;
+  --color-surface: #fff;
+  --color-text: #152923;
+  --color-text-muted: #718078;
+  --color-text-subtle: #87938a;
+  --color-border: #e4eae5;
+  --color-border-strong: #dce4dd;
+  --color-success: #24613c;
+  --color-success-soft: #e9f5ec;
+  --color-danger: #a53232;
+  --color-danger-soft: #fff0ee;
+  --color-warning: #75602b;
+  --color-warning-soft: #fffaf0;
+
+  --font-body: Inter, "Segoe UI", Arial, sans-serif;
+  --font-display: Georgia, "Times New Roman", serif;
+
+  --radius-sm: 6px;
+  --radius-control: 8px;
+  --radius-card: 8px;
+  --radius-pill: 99px;
+
+  --shadow-card: 0 8px 24px rgba(36, 91, 181, 0.08);
+  --shadow-sidebar: 0 -5px 20px rgba(29, 54, 38, 0.05);
+  --focus-ring: 0 0 0 3px rgba(36, 91, 181, 0.12);
+  --focus-outline: 3px solid rgba(36, 91, 181, 0.34);
+
+  --button-primary-background: var(--color-primary);
+  --button-primary-hover: var(--color-primary-hover);
+  --button-secondary-background: var(--color-surface);
+  --input-background: var(--color-surface);
+  --input-border: var(--color-border-strong);
+  --card-background: var(--color-surface);
+  --card-border: var(--color-border);
+  --table-header-background: #fbfcfb;
+  --table-row-border: #edf1ed;
+  --badge-success-background: var(--color-success-soft);
+  --badge-danger-background: var(--color-danger-soft);
+  --badge-neutral-background: #f0f3f0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  font-family: var(--font-body);
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  color: inherit;
+}
